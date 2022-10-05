@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+
+    // two coordinates x and y
+    double x = 3.7;
+    double y = 6.45;
+
+    // get angle θ
+    double theta = Math.atan2(y, x);
+    System.out.println(theta);                   // 1.0499821573815171
+
+    // convert into the degree
+    System.out.println(Math.toDegrees(theta));    // 60.15954618200191
+  }
+}
